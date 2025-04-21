@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>
+        Generate a
+        <p class="accent-color">random password</p>
+      </h1>
+      <p>Never use an insecure password again</p>
+      <button id="generator" onclick="generatePasswords()">
+        Generate passwords
+      </button>
+      <hr />
+      <div id="passwordWrapper">
+        <button class="outputField" onclick="copyFirstValue()">
+          <img src="copy-solid.svg" />
+          <span id="firstPassword"></span>
+        </button>
+        <button class="outputField" onclick="copySecondValue()">
+          <img src="copy-solid.svg" />
+          <span id="secondPassword"></span>
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Inter";
+  src: url(Inter.ttf);
+}
+
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #1f2937;
+  padding: 150px 75px;
+  width: 550px;
+}
+h1 {
+  font-family: "Inter";
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+  font-size: 3.5rem;
+}
+h1 p {
+  margin: 0px;
+  margin-top: -15px;
+  font-size: 3.5rem;
+}
+p {
+  color: #d5d4d8;
+  margin-top: 8px;
+  font-size: 1.5rem;
+}
+.accent-color {
+  color: #4adf86;
+}
+#generator {
+  border-radius: 4px;
+  padding: 8px 16px;
+  background-color: #10b981;
+  color: white;
+  font-family: "Inter", sans-serif;
+  border: none;
+  margin: 48px 0px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+#generator:hover {
+  cursor: pointer;
+  background-color: #0e9769;
+}
+hr {
+  margin: 0px 0px;
+  border: 1px solid #2f3e53;
+}
+#passwordWrapper {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.outputField {
+  display: flex;
+  align-items: center;
+  background-color: #273549;
+  padding: 8px 16px;
+  width: 215px;
+  min-height: 32px;
+  color: #55f991;
+  border-radius: 4px;
+  text-align: left;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+.outputField:hover {
+  cursor: pointer;
+  background-color: #1b2533;
+}
+img {
+  width: 18px;
+  margin-right: 8px;
+}
+span {
+  font-weight: 500;
+}
