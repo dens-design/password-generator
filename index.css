@@ -85,3 +85,28 @@ img {
 span {
   font-weight: 500;
 }
+#input-El {
+  background-color: #273549;
+  padding: 8px 16px;
+  width: 215px;
+  min-height: 32px;
+  color: white;
+  border-radius: 4px;
+  text-align: left;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+}
+label {
+  color: rgb(211, 209, 217);
+  font-family: "Inter", sans-serif;
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 48px;
+  font-weight: 500;
+}
+#input-error {
+  color: rgb(255, 134, 134);
+  font-size: 0.8rem;
+  min-height: 20px;
+}

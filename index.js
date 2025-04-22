@@ -94,19 +94,26 @@ const characters = [
 
 //Generate two random passwords when the user clicks the button
 //Each password should be 15 characters long
+const inputEl = document.getElementById("input-el");
+const inputError = document.getElementById("input-error");
 
-let firstPasswordEl = document.getElementById("firstPassword");
-let secondPasswordEl = document.getElementById("secondPassword");
+const firstPasswordEl = document.getElementById("firstPassword");
+const secondPasswordEl = document.getElementById("secondPassword");
 
 function generatePasswords() {
   //getrandompassword and display it x2
-  firstPasswordEl.textContent = getPassword();
-  secondPasswordEl.textContent = getPassword();
+  if (inputEl.value > 0 && inputEl.value <= 20) {
+    inputError.textContent = "";
+    firstPasswordEl.textContent = getPassword();
+    secondPasswordEl.textContent = getPassword();
+  } else {
+    inputError.textContent = "Please specify a number between 0-20!";
+  }
 }
 
 function getPassword() {
   let password = "";
-  for (let i = 0; i < 15; i++) {
+  for (let i = 0; i < inputEl.value; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
   }
   return password;
