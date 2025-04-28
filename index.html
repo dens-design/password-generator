@@ -15,16 +15,14 @@
         <p id="input-error"></p>
       </div>
 
-      <button id="generator" onclick="generatePasswords()">
-        Generate passwords
-      </button>
+      <button id="generator">Generate passwords</button>
       <hr />
       <div id="passwordWrapper">
-        <button class="outputField" onclick="copyFirstValue()">
+        <button class="outputField" id="output1">
           <img src="copy-solid.svg" />
           <span id="firstPassword"></span>
         </button>
-        <button class="outputField" onclick="copySecondValue()">
+        <button class="outputField" id="output2">
           <img src="copy-solid.svg" />
           <span id="secondPassword"></span>
         </button>

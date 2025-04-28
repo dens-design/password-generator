@@ -14,7 +14,7 @@ body {
 }
 .card {
   background-color: #1f2937;
-  padding: 150px 75px;
+  padding: 50px;
   width: 550px;
 }
 h1 {
@@ -44,7 +44,7 @@ p {
   color: white;
   font-family: "Inter", sans-serif;
   border: none;
-  margin: 48px 0px;
+  margin: 24px 0px;
   font-weight: 500;
   font-size: 1.1rem;
 }

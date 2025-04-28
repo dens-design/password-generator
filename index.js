@@ -125,3 +125,11 @@ function copyFirstValue() {
 function copySecondValue() {
   navigator.clipboard.writeText(secondPasswordEl.textContent);
 }
+
+const generatorBtn = document.getElementById("generator");
+const output1 = document.getElementById("output1");
+const output2 = document.getElementById("output2");
+
+generatorBtn.addEventListener("click", generatePasswords);
+output1.addEventListener("click", copyFirstValue);
+output2.addEventListener("click", copySecondValue);
