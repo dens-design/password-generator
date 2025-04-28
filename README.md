@@ -1,19 +1,17 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+<h1> Password Generator Extension for Google Chrome </h1>
+<h2>Features: </h2>
+<p><strong>Generate password:</strong> Generate a random password with alphabetic and numeric characters as well as symbols</p>
+<p><strong>Configure length:</strong> Change output length</p>
+<br>
+<h2>How to add the extension to Google Chrome:</h2>
+<ol>
+  <li>Open Google Chrome and go to chrome://extensions</li>
+  <li>Activate Developer mode in the top right corner if you haven't already</li>
+  
+  ![image](https://github.com/user-attachments/assets/bee2a356-a478-4812-9da1-a92b38b18086)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+  <li>Click the Load unpacked - Button and upload the repository</li>
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+  <li>You should now be able to open the extension! :)</li>
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+</ol>
