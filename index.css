@@ -100,7 +100,7 @@ span {
 label {
   color: rgb(211, 209, 217);
   font-family: "Inter", sans-serif;
-  display: block;
+
   margin-bottom: 8px;
   margin-top: 48px;
   font-weight: 500;
@@ -109,4 +109,17 @@ label {
   color: rgb(255, 134, 134);
   font-size: 0.8rem;
   min-height: 20px;
+}
+.input-section label {
+  display: block;
+}
+.checkbox-section label {
+  margin-right: 20px;
+}
+#checkbox-error {
+  color: rgb(255, 134, 134);
+  font-size: 14px;
+}
+.hidden {
+  visibility: hidden;
 }
